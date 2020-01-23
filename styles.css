@@ -20,6 +20,7 @@ html {
     color: #fff;
     position: fixed;
     z-index: 99;
+    background-image: linear-gradient(to bottom, rgb(0, 35, 61), rgba(0, 0, 0, 0));
 }
 
 .brand{
@@ -53,12 +54,12 @@ ul {
     overflow: hidden;
   }
   
-  li {
+li {
     float: left;
     text-decoration: none;
-  }
+}
   
-  li a {
+li a {
     font-family: 'Open Sans', sans-serif;
     display: block;
     color: white;
@@ -66,16 +67,16 @@ ul {
     padding: 14px 40px;
     text-decoration: none;
     float: right;
-  }
+}
   
-  li a:hover {
+li a:hover {
     color: rgb(90, 143, 185);
     text-decoration: none;
-  }
+}
 
 body{
     background-color: #00233D;
-    height: 2000px;
+    height: 1800px;
 }
 
 .centerArt{
@@ -249,13 +250,129 @@ body{
     border-color: #FFE119;
     border-width: 20px;
     background-color: #00233D;
-    height: 100vh;
+    height: fit-content;
+    color: #fff;
     text-align: center;
 }
 
-#codeSection{
+#bioLeft{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 4em;
+    text-align: left;
+    font-size: 50px;
+}
+
+.underline{
+    width: 40%;
+    min-height: 5px;
+    background-color: #fff;
+}
+
+#bioRight{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: left;
+    top: 50%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#artSection{
     z-index: 99;
     height: 100vh;
     background-color: #00233D;
+    color: #fff;
+    margin-top: 2%;
     text-align: center;
 }
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+  
+a:active, a:focus {
+    outline: 0;
+    border: none;
+}
+
+
+
+
+.content-section {
+    min-height: 1200px;
+}
+
+.categories{
+    margin-top: 10%;
+}
+
+.sidebar-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+}
+.sidebar-item:nth-child(2) {
+    top: 25%;
+}
+.sidebar-item:nth-child(3) {
+    top: 50%;
+}
+.sidebar-item:nth-child(4) {
+    top: 75%;
+}
+.make-me-sticky {
+    position: sticky;
+    padding: 0 15px;
+    top: 40%;
+}
+.sidebar-item {
+    text-align: left;
+}
+.sidebar-item h3 {
+    background: #00233D;
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+    border-bottom: 4px solid #fff;
+}
+
+  
+

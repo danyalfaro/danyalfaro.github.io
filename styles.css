@@ -3,12 +3,12 @@
     padding: 0px;
 }
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 .nav{
-    height: 120px;
+    height: 100px;
 }
 
 .navigation{
@@ -16,7 +16,7 @@ html {
     padding-left: 8%;
     padding-right: 8%;
     margin: auto;
-    padding-top: 2em;
+    padding-top: 1.2em;
     color: #fff;
     position: fixed;
     z-index: 99;
@@ -25,7 +25,7 @@ html {
 
 .brand{
     font-family: 'Major Mono Display', monospace;
-    font-size: 200%;
+    font-size: 120%;
     float: left;
 }
 
@@ -44,7 +44,8 @@ html {
 
 .menu{
     float: right;
-    font-size: 120%;
+    margin-top: 0.5em;
+    font-size: 100%;
 }
 
 ul {
@@ -76,7 +77,6 @@ li a:hover {
 
 body{
     background-color: #00233D;
-    height: 1800px;
 }
 
 .centerArt{
@@ -247,8 +247,8 @@ body{
 #bioSection{
     z-index: 99;
     border-style: solid;
-    border-color: #FFE119;
-    border-width: 20px;
+    border-color: #fff;
+    border-width: 10px;
     background-color: #00233D;
     height: fit-content;
     color: #fff;
@@ -257,9 +257,9 @@ body{
 
 #bioLeft{
     font-family: 'Open Sans', sans-serif;
-    margin-top: 4em;
+    margin-top: 7em;
     text-align: left;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .underline{
@@ -271,7 +271,7 @@ body{
 #bioRight{
     font-family: 'Open Sans', sans-serif;
     position: relative;
-    text-align: left;
+    text-align: justify;
     top: 50%;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -283,6 +283,8 @@ body{
     background-color: #00233D;
     color: #fff;
     margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
 }
 
@@ -298,7 +300,7 @@ body{
 .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
-  max-width: 25%;
+  /* max-width: 25%; */
   padding: 0 4px;
 }
 
@@ -306,6 +308,10 @@ body{
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+.item{
+    padding: 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -331,48 +337,12 @@ a:active, a:focus {
     border: none;
 }
 
-
-
-
 .content-section {
     min-height: 1200px;
 }
 
-.categories{
-    margin-top: 10%;
+.grid-gallery{
+    padding-top: 20px;
 }
 
-.sidebar-item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 25%;
-}
-.sidebar-item:nth-child(2) {
-    top: 25%;
-}
-.sidebar-item:nth-child(3) {
-    top: 50%;
-}
-.sidebar-item:nth-child(4) {
-    top: 75%;
-}
-.make-me-sticky {
-    position: sticky;
-    padding: 0 15px;
-    top: 40%;
-}
-.sidebar-item {
-    text-align: left;
-}
-.sidebar-item h3 {
-    background: #00233D;
-    max-width: 40%;
-    margin: 0 auto;
-    padding: 20px 0 10px;
-    border-bottom: 4px solid #fff;
-}
-
-  
 

@@ -100,6 +100,7 @@ body{
     }
     .infoEmail{
         margin-top: 0px;
+        margin-bottom: 10%;
     }
     .detail1{
         visibility: hidden;
@@ -113,6 +114,7 @@ body{
     }
     .infoEmail{
         margin-top: 0px;
+        margin-bottom: 10%;
     }
     .detail1{
         visibility: hidden;
@@ -126,6 +128,7 @@ body{
     }
     .infoEmail{
         margin-top: 0px;
+        margin-bottom: 10%;
     }
     .detail1{
         visibility: visible;
@@ -466,6 +469,7 @@ a:active, a:focus {
 
 .socialMediaAccounts{
     text-align: center;
+    font-size: 90%;
 }
 
 

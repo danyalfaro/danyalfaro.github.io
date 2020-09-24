@@ -13,7 +13,6 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script src="scripts.js"></script>
     <title>Daniel Alfaro R.</title>
   </head>
   <body>
@@ -25,11 +24,16 @@
           <a href="#heroSection"><p>r.</p></a>
         </div>
         <div class="menu">
-          <ul>
+          <ul class="menuLinks" id="menuLinks">
             <li><a href="code.html">software</a></li>
             <li><a href="art.html">photography</a></li>
             <li><a href="info.html">contact</a></li>
           </ul>
+          <div class="burger" id="burger">
+            <div class="burgerLine1"></div>
+            <div class="burgerLine2"></div>
+            <div class="burgerLine3"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -81,7 +85,7 @@
           <div id="bioLeft" class="col">
             <div
               class="box"
-              style="font-family: 'Major Mono Display', monospace;"
+              style="font-family: 'Major Mono Display', monospace"
             >
               <p>short bio</p>
               <div class="underline"></div>
@@ -118,5 +122,7 @@
         </div>
       </div>
     </div>
+    <script src="scripts.js"></script>
+    <script src="mobileNav.js"></script>
   </body>
 </html>

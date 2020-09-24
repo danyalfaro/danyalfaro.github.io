@@ -22,6 +22,10 @@ html {
   position: fixed;
   z-index: 99;
   background-image: linear-gradient(to bottom, #0a1a2a, rgba(0, 0, 0, 0));
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
 }
 
 .brand {
@@ -46,9 +50,13 @@ html {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  justify-content: end;
+  justify-content: flex-end;
   margin-top: 0.5em;
   font-size: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
 }
 
 .menuLinks {
@@ -57,6 +65,10 @@ html {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
 }
 
 .menu li {
@@ -79,6 +91,10 @@ html {
 .burger {
   display: flex;
   flex-direction: column;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
 }
 
 .burger div {
@@ -144,7 +160,7 @@ body {
     top: 12vh;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     background-color: #0a1a2af5;
     border-style: solid;
@@ -152,6 +168,10 @@ body {
     border-width: 3px;
     transform: translateX(100%);
     transition: transform 0.1s ease-in;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
   }
 
   .menu li {

@@ -154,6 +154,7 @@ body {
   height: 75vh;
   left: 27%;
   transition: 0.5s ease-in-out;
+  text-align: center;
 }
 
 #rec2 {
@@ -337,6 +338,12 @@ body {
   right: 0em;
 }
 
+.scrollDown{
+  color: #fff;
+  position: absolute;
+  bottom: -50px;
+}
+
 #bioSection {
   border-style: solid;
   border-color: #fff;
@@ -344,10 +351,8 @@ body {
   border-width: 10px;
   height: fit-content;
   color: #fff;
-  /* text-align: center; */
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
   flex-wrap: wrap;
 }
 
@@ -375,6 +380,22 @@ body {
   padding-top: 5rem;
   padding-bottom: 5rem;
   min-width: 325px;
+}
+
+.changeLang{
+  text-align: right;
+  margin-bottom: 10%;
+  font-size: 125%;
+}
+
+#english:hover{
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.508);
+}
+
+#español:hover{
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.508);
 }
 
 #artSection {

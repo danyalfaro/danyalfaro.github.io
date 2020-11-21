@@ -344,17 +344,20 @@ body {
   border-width: 10px;
   height: fit-content;
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
   display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
   flex-wrap: wrap;
 }
 
 #bioLeft {
   font-family: "Open Sans", sans-serif;
   margin-top: 7em;
-  text-align: left;
+  width: 45%;
   font-size: 30px;
-  min-width: 300px;
+  min-width: 325px;
+  margin-left: 5%;
 }
 
 .underline {
@@ -365,12 +368,13 @@ body {
 
 #bioRight {
   font-family: "Open Sans", sans-serif;
-  position: relative;
   text-align: justify;
+  margin-right: 5%;
+  width: 45%;
   top: 50%;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  min-width: 300px;
+  min-width: 325px;
 }
 
 #artSection {

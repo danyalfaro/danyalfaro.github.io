@@ -1,3 +1,7 @@
+let currLang = 1;
+const bioInfoEn = document.getElementById("bioInfoEn");
+const bioInfoEs = document.getElementById("bioInfoEs");
+
 window.onscroll = function () {
   myFunction();
 };
@@ -13,3 +17,18 @@ function myFunction() {
     document.getElementById("rec3").className = "rec";
   }
 }
+
+function changeLang(num){
+  if(num == 1){
+    currLang = 1;
+    bioInfoEn.className = "hideLang";
+    bioInfoEs.className = "";
+  }else{
+    currLang = 2;
+    bioInfoEs.className = "hideLang";
+    bioInfoEn.className = "";
+  }
+}
+
+changeLang(currLang);
+
